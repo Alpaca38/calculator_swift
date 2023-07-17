@@ -7,23 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1A0BD4A2A65876E0033CF15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0BD492A65876E0033CF15 /* AppDelegate.swift */; };
-		D1A0BD4C2A65876E0033CF15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0BD4B2A65876E0033CF15 /* SceneDelegate.swift */; };
-		D1A0BD4E2A65876E0033CF15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0BD4D2A65876E0033CF15 /* ViewController.swift */; };
-		D1A0BD512A65876E0033CF15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A0BD4F2A65876E0033CF15 /* Main.storyboard */; };
-		D1A0BD532A65876F0033CF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A0BD522A65876F0033CF15 /* Assets.xcassets */; };
-		D1A0BD562A65876F0033CF15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A0BD542A65876F0033CF15 /* LaunchScreen.storyboard */; };
+		D1A0BD5F2A6589880033CF15 /* calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0BD5E2A6589880033CF15 /* calculator.swift */; };
+		D1A0BD612A6589A00033CF15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0BD602A6589A00033CF15 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1A0BD462A65876E0033CF15 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A0BD492A65876E0033CF15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1A0BD4B2A65876E0033CF15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1A0BD4D2A65876E0033CF15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D1A0BD502A65876E0033CF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1A0BD522A65876F0033CF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D1A0BD552A65876F0033CF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D1A0BD572A65876F0033CF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A0BD5E2A6589880033CF15 /* calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculator.swift; sourceTree = "<group>"; };
+		D1A0BD602A6589A00033CF15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +47,8 @@
 		D1A0BD482A65876E0033CF15 /* calculator */ = {
 			isa = PBXGroup;
 			children = (
-				D1A0BD492A65876E0033CF15 /* AppDelegate.swift */,
-				D1A0BD4B2A65876E0033CF15 /* SceneDelegate.swift */,
-				D1A0BD4D2A65876E0033CF15 /* ViewController.swift */,
-				D1A0BD4F2A65876E0033CF15 /* Main.storyboard */,
-				D1A0BD522A65876F0033CF15 /* Assets.xcassets */,
-				D1A0BD542A65876F0033CF15 /* LaunchScreen.storyboard */,
-				D1A0BD572A65876F0033CF15 /* Info.plist */,
+				D1A0BD5E2A6589880033CF15 /* calculator.swift */,
+				D1A0BD602A6589A00033CF15 /* main.swift */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -99,6 +85,7 @@
 				TargetAttributes = {
 					D1A0BD452A65876E0033CF15 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -125,9 +112,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A0BD562A65876F0033CF15 /* LaunchScreen.storyboard in Resources */,
-				D1A0BD532A65876F0033CF15 /* Assets.xcassets in Resources */,
-				D1A0BD512A65876E0033CF15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +122,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A0BD4E2A65876E0033CF15 /* ViewController.swift in Sources */,
-				D1A0BD4A2A65876E0033CF15 /* AppDelegate.swift in Sources */,
-				D1A0BD4C2A65876E0033CF15 /* SceneDelegate.swift in Sources */,
+				D1A0BD612A6589A00033CF15 /* main.swift in Sources */,
+				D1A0BD5F2A6589880033CF15 /* calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D1A0BD4F2A65876E0033CF15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1A0BD502A65876E0033CF15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D1A0BD542A65876F0033CF15 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1A0BD552A65876F0033CF15 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D1A0BD582A65876F0033CF15 /* Debug */ = {
@@ -285,6 +249,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -302,6 +267,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Jo.calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "calculator/calculator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -329,6 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Jo.calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "calculator/calculator-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
